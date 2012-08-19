@@ -70,3 +70,17 @@ In the far corners of this gem, you may find some extension that might actually 
 ## I like it!
 
 Great - contribute! Humerous things, overkill, and/or useful things are appreciated.
+
+## Contributing
+
+Fork it, then:
+
+    git clone git@github.com:user/toomuchsupport
+    bundle # install dependencies
+    rspec # testing is good for you
+    git checkout -b my_awesome_feature
+    # make changes
+    git push origin my_awesome_feature
+    
+Then make a pull request.
+    
