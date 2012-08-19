@@ -75,7 +75,7 @@ Great - contribute! Humerous things, overkill, and/or useful things are apprecia
 
 Fork it, then:
 
-    git clone git@github.com:user/toomuchsupport
+    git clone git@github.com:user/toomuchsupport.git
     bundle # install dependencies
     rspec # testing is good for you
     git checkout -b my_awesome_feature
