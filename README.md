@@ -79,7 +79,7 @@ Fork it, then:
     bundle # install dependencies
     rspec # testing is good for you
     git checkout -b my_awesome_feature
-    # make changes
+    # make changes, add them and commit them
     git push origin my_awesome_feature
     
 Then make a pull request.
