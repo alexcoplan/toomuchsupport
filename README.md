@@ -5,8 +5,8 @@ Too Much Support is a bit like [ActiveSupport](https://github.com/rails/rails/tr
 Here are just a few *incredibly* useful things that you can do with too much support, where ActiveSupport just isn't up to the task:
 
 ```ruby
-# one of ruby's flaws is it's inability
-# to type check using correct grammar
+# one of ruby's flaws is that you are unable
+# to type check using correct english grammar
 "a".is_a? String # ok
 2.is_a? Integer # eww
 
