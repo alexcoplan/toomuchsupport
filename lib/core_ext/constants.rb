@@ -1,0 +1,1 @@
+TMS_TENS = %w{ twenty thirty fourty fifty sixty seventy eighty ninety }
