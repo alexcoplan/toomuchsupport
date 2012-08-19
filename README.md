@@ -1,6 +1,6 @@
 # Too Much Support
 
-Too Much Support is a bit like [ActiveSupport](https://github.com/rails/rails/tree/master/activesupport/), but better.
+Too Much Support is a bit like [ActiveSupport](https://github.com/rails/rails/tree/master/activesupport/), but better. It's currently very early in development, and there is lots of support to be added, but thanks to Ruby's ability to create dynamic methods, there's already a lot of support!
 
 Here are just a few *incredibly* useful things that you can do with too much support, where ActiveSupport just isn't up to the task:
 
@@ -16,8 +16,10 @@ Here are just a few *incredibly* useful things that you can do with too much sup
 # ruby has the Integer#zero? method:
 0.zero? # => true
 
-# with too much support, you are no longer limited to zero
-# enjoy the other number comparisons!
+# but why only zero, ruby?
+
+# with too much support, you are no longer limited to zero!
+# compare your numbers in style:
 
 1.one? # => true
 2.two? # => true
@@ -28,14 +30,14 @@ Here are just a few *incredibly* useful things that you can do with too much sup
 [1, 2, 3].last # => 3
 
 # with too much support, you are no longer limited to the first and last methods
-# enjoy the other item selector methods!
+# enjoy the other indexing methods!
 
 [1, 2, 3].second # => 2
 ('A'..'Z').to_a.twentysixth # => Z
 (1..100).to_a.onehundreth # => 100
 
 # ruby also provides a method (==) for comparison between objects
-# although this does work on strings, why use it, when you can use a method!
+# although this does work on strings, why use it, when you can use a method?!
 
 "hello".hello? # => true
 "foo".bar? # => false
@@ -49,18 +51,20 @@ Here are just a few *incredibly* useful things that you can do with too much sup
 
 This is just some of the groundbreaking technology available in too much support.
 
-In the far corners of this library, you may find some extension that may actually do something useful. Here are a few:
+In the far corners of this gem, you may find some extension that might actually do something useful. Here are a couple:
 
 ```ruby
 # Strign#to_proc evals code in a string into a proc
 "2 + 2".to_proc.call # => 4
 
-
+# String#clip removes characters from the end of a string
+"food".clip # => "foo"
+"foobar".clip(3) # => "foo"
 ```
 
 ## Lolwut?
 
-Read the source/specs. It's fairly well specced out.
+Read the source, or the specs. It's fairly well covered.
 
 ## I like it!
 
@@ -68,4 +72,4 @@ Great! Contribute, because you need MOARE SUPPORTZ!
 
 ## License
 
-Really?
+Probably MIT or something.
