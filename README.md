@@ -66,10 +66,7 @@ In the far corners of this gem, you may find some extension that might actually 
 
     gem install toomuchsupport # ponies not included
 
-## Lolwut?
-
-Read the source, or the specs. It's fairly well covered.
 
 ## I like it!
 
-Great! Contribute, because you need MOARE SUPPORTZ!
+Great - contribute! Humerous things, overkill, and/or useful things are appreciated.
