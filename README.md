@@ -34,7 +34,7 @@ Here are just a few *incredibly* useful things that you can do with too much sup
 ('A'..'Z').to_a.twentysixth # => Z
 (1..100).to_a.onehundreth # => 100
 
-# also, ruby provides a method (==) for comparison between objects
+# ruby also provides a method (==) for comparison between objects
 # although this does work on strings, why use it, when you can use a method!
 
 "hello".hello? # => true
@@ -44,7 +44,7 @@ Here are just a few *incredibly* useful things that you can do with too much sup
 # here are some other examples
 
 42.is_the_meaning_of_life? # => true
-["a", "b", "c"].haz? "b" # => true
+["a", "b", "c"].haz? "b" # => true
 ``` 
 
 This is just some of the groundbreaking technology available in too much support.
