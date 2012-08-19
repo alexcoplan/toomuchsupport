@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 describe Object do
   describe "#is_an" do
     it "is the same as is_a" do

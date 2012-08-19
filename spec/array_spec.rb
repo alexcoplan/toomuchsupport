@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 describe Array do
   describe "#first" do
     it "doesn't break ruby's first" do
