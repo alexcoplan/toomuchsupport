@@ -75,12 +75,14 @@ Great - contribute! Humerous things, overkill, and/or useful things are apprecia
 
 Fork it, then:
 
-    git clone git@github.com:user/toomuchsupport.git
-    bundle # install dependencies
-    rspec # testing is good for you
-    git checkout -b my_awesome_feature
-    # make changes, add them and commit them
-    git push origin my_awesome_feature
-    
+```sh
+git clone git@github.com:user/toomuchsupport.git
+bundle # install dependencies
+rspec # testing is good for you
+git checkout -b my_awesome_feature
+# make changes, add them and commit them
+git push origin my_awesome_feature
+```
+
 Then make a pull request.
     
