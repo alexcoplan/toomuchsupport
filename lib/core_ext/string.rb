@@ -13,12 +13,14 @@ class String
   # TODO: fuzzy matching for underscores/spaces
   def method_missing sym
     raise NoMethodError.new("Undefined method #{sym} for String") unless sym.to_s.end_with? "?"
-    self.downcase == sym.to_s.clip.downcase
+    this = self.downcase.gsub("_"," ")
+    that = sym.to_s.clip # remove ?
+    that = that.downcase.gsub("_"," ")
+    this == that
   end
 
+  # this handy little helper evals code the OO way :)
   def to_proc
-    # this handy little helper evals any code
-    # the OO way :)
     eval "Proc.new do\n#{self}\nend"
   end
 end

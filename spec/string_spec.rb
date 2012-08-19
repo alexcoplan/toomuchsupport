@@ -42,5 +42,13 @@ describe String do
     it "does not match different strings" do
       "foo".bar?.should be_false
     end
+
+    it "matches regardless of case" do
+      "fOo".fOO?.should be_true
+    end
+
+    it "treats spaces and underscores as the same" do
+      "foo bar".foo_bar?.should be_true
+    end
   end
 end
