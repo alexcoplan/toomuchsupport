@@ -62,6 +62,10 @@ In the far corners of this gem, you may find some extension that might actually 
 "foobar".clip(3) # => "foo"
 ```
 
+## Give me all the supportz!
+
+    gem install toomuchsupport # ponies not included
+
 ## Lolwut?
 
 Read the source, or the specs. It's fairly well covered.
