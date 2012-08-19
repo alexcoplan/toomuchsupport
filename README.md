@@ -1,4 +1,4 @@
-# Too Much Support
+# Too Much Support [![Build Status](https://secure.travis-ci.org/alexcoplan/toomuchsupport.png?branch=master)](http://travis-ci.org/alexcoplan/toomuchsupport)
 
 Too Much Support is a bit like [ActiveSupport](https://github.com/rails/rails/tree/master/activesupport/), but better. It's currently very early in development, and there is lots of support to be added, but thanks to Ruby's ability to create dynamic methods, there's already a lot of support!
 
