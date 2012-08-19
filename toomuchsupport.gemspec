@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
     s.name = 'toomuchsupport'
-    s.version = '0.0.0'
-    s.date = '2012-08-03'
-    s.summary = 'Enough support for anyone'
-    s.description = "A sickening amount of core extensions"
+    s.version = '0.0.01'
+    s.date = '2012-08-19'
+    s.summary = 'Too Much Support'
+    s.description = "Enough support for anyone"
     
     s.files = Dir.glob("{lib}/**/*")
     s.require_path = 'lib'

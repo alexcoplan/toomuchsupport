@@ -54,7 +54,7 @@ This is just some of the groundbreaking technology available in too much support
 In the far corners of this gem, you may find some extension that might actually do something useful. Here are a couple:
 
 ```ruby
-# Strign#to_proc evals code in a string into a proc
+# String#to_proc evals code in a string into a proc
 "2 + 2".to_proc.call # => 4
 
 # String#clip removes characters from the end of a string
