@@ -1,6 +1,6 @@
 # Too Much Support
 
-Too Much Support is a bit like [ActiveSupport](https://github.com/rails/rails/tree/master/activesupport/), but better. It's currently very early in development, and there is lots of support to be added, but thanks to Rubys ability to create dynamic methods, there's already a lot of support!
+Too Much Support is a bit like [ActiveSupport](https://github.com/rails/rails/tree/master/activesupport/), but better. It's currently very early in development, and there is lots of support to be added, but thanks to Ruby's ability to create dynamic methods, there's already a lot of support!
 
 Here are just a few *incredibly* useful things that you can do with too much support, where ActiveSupport just isn't up to the task:
 
